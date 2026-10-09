@@ -1,0 +1,62 @@
+body{
+    display: grid;
+    
+    margin: 0;
+    background-color: bisque;
+   min-height: 100svh; 
+    grid-template-rows: auto 1fr auto;
+
+}
+.container{
+
+   
+    display: grid;
+   gap: 10px;
+justify-items: start; 
+grid-template-columns: repeat(6,1fr);
+ 
+ /* align-items: center; */
+/* justify-content: center;*/
+/*align-content: center;*/
+/*place-items: center; */
+/*justify-items:center ;*/
+/*align-items: center; */ 
+
+
+    
+}
+.box-1{
+    background-color: blue;
+    min-height: 50%;
+    min-width: 50%;
+ 
+   
+}
+.box-2{
+    background-color: red;
+    min-height: 100%;
+    min-width: 100%;
+   
+}
+.box-3{
+    background-color: yellow;
+     min-height: 100%;
+    min-width: 100%;
+}
+.box-4{
+    background-color: orange;
+     min-height: 100%;
+    min-width: 100%;
+}
+.box-5{
+    background-color: brown;
+    min-height: 100;
+    min-width: 100;
+}
+.box-6{
+    background-color: aqua;
+    min-height: 100;
+    min-width: 100;
+}
+
+    
